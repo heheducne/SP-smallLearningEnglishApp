@@ -1,0 +1,12 @@
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.csproj.AssemblyReference.cache
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.csproj.SuggestedBindingRedirects.cache
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.Properties.Resources.resources
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.csproj.GenerateResource.cache
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.csproj.CoreCompileInputs.cache
+F:\Codes\VS\thuchanh1\thuchanh1\bin\Debug\thuchanh1.exe.config
+F:\Codes\VS\thuchanh1\thuchanh1\bin\Debug\thuchanh1.exe
+F:\Codes\VS\thuchanh1\thuchanh1\bin\Debug\thuchanh1.pdb
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.exe
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.pdb
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.FormMain.resources
+F:\Codes\VS\thuchanh1\thuchanh1\obj\Debug\thuchanh1.FormGame.resources

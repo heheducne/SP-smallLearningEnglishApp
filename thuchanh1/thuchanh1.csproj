@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EFF4E26-B7BB-4084-9857-1BB6A4AFEA0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>thuchanh1</RootNamespace>
+    <AssemblyName>thuchanh1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGame.Designer.cs">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormGame.resx">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolphin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elephants.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monkey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parrot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rhino.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bicycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helicopter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taxi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\truck.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\words_animal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\words_vehicles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_unmute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis.jpg" />
+    <None Include="Resources\swimmers.jpg" />
+    <None Include="Resources\pingpong.jpg" />
+    <None Include="Resources\golf.jpg" />
+    <None Include="Resources\football.jpg" />
+    <None Include="Resources\chess.jpg" />
+    <None Include="Resources\basketball.jpg" />
+    <None Include="Resources\badminton.jpg" />
+    <None Include="Resources\athletics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volleyball.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airconditioner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fridge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microwave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\washingmachine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\words_household.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\words_sports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANIMAL_WORDS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_wordss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOUSEHOLD-WORDS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPORT_WORDS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VEHICLES_WORDS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\words.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
