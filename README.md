@@ -1,4 +1,4 @@
-#SP-School Project 
+# SP-School Project 
 
 This is my first project in C# at school 
 
