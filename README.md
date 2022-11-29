@@ -1,4 +1,4 @@
-# SP-School Project 
+# Learning English App
 
 This is my first project in C# at school 
 
